@@ -21,8 +21,5 @@ jobs:
         script: |
           cd /opt/laravel/test # navigate into the folders
           git pull
-          php artisan cache:clear
-          php artisan view:clear
-          php artisan route:clear
-          php artisan config:clear
+       
           
