@@ -20,6 +20,5 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         script: |
           cd /opt/laravel/test # navigate into the folders
-          git pull
-       
+          git pulll
           
