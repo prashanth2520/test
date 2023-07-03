@@ -1,0 +1,148 @@
+body{
+    margin: 0;    
+}
+.Lighting-login-bg{
+    background: url(../img/login-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card.lighting-card-section {
+    box-shadow: none;
+    border: 0;
+}
+.login-box, .register-box{
+    width: 500px;
+}
+.login-box-msg::before {
+    content: "";
+    width: 180px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.login-box-msg::after {
+    content: "";
+    width: 180px;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.login-box-msg, .register-box-msg{
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    color: #A9ADB0;
+}
+.lighting-card-section .form-control {
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.15);
+    padding-left: 30px;
+}
+.lighting-card-section .login-card-body .input-group .input-group-text,.lighting-card-section .register-card-body .input-group .input-group-text {
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-left: 0;
+    border-radius: 0 30px 30px 0;
+    padding-right: 30px;
+}
+.forgot-section {
+    text-align: right;
+    padding: 24px 0;
+}
+.forgot-section a {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(212, 28, 13, 0.75);
+}
+.login-btn-section .btn.btn-primary {
+    background: #D41C0D;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.register-text-item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 38px;
+}
+.register-text-item a {
+    color: rgba(212, 28, 13, 0.75);
+}
+.register-item-btn .btn.btn-primary {
+    background: #D41C0D;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 100%;
+    height: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 35px 0;
+}
+.card-body.register-card-body .login-box-msg,.card-body.login-card-body .login-box-msg{
+    padding-bottom: 35px;
+}
+.card.lighting-card-section .register-card-body {
+    padding: 0;
+    padding-top: 40px;
+}
+.card.lighting-card-section .login-card-body{
+    padding: 0;
+    padding-top: 40px;
+}
+.landing-page-section {
+    position: relative;
+}
+.sign-btn-top {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+.page-top-sign-btn {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.025);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #666666 !important;
+    opacity: 0.75;
+    text-align: center;
+}
