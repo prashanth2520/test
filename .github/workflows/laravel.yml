@@ -20,5 +20,5 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         script: |
           cd /opt/laravel # navigate into the folders
-          sudo touch simple.txt
+          touch simple.txt
           
