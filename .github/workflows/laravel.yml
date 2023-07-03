@@ -20,5 +20,9 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         script: |
           cd /opt/laravel/test # navigate into the folders
-          touch simple.txt
+          git pull
+          php artisan cache:clear
+          php artisan view:clear
+          php artisan route:clear
+          php artisan config:clear
           
