@@ -19,6 +19,6 @@ jobs:
         username: ${{ secrets.SSH_USER }}
         password: ${{ secrets.SSH_PASSWORD }}
         script: |
-          cd /opt/laravel/test # navigate into the folders
-          git pull
+          cd /opt/laravel/ # navigate into the folders
+          sudo touch example.txt
           
